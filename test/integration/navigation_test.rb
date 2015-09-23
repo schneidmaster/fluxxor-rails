@@ -8,6 +8,6 @@ class NavigationTest < ActionDispatch::IntegrationTest
 
   test 'fluxxor response is for the expected version' do
     get '/assets/fluxxor.js'
-    assert_match(Fluxxor::Rails::VERSION, @response.body)
+    assert_match("\"name\":\"fluxxor\",\"version\":\"#{Fluxxor::Rails::VERSION}\"", @response.body)
   end
 end
