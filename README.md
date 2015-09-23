@@ -1,3 +1,6 @@
+[![Circle CI](https://circleci.com/gh/schneidmaster/fluxxor-rails.svg?style=shield)](https://circleci.com/gh/schneidmaster/fluxxor-rails)
+[![Gem Version](https://badge.fury.io/rb/fluxxor-rails.svg)](http://badge.fury.io/rb/fluxxor-rails)
+
 # fluxxor-rails
 
 fluxxor-rails wraps the [fluxxor](http://fluxxor.com/) library in a Rails engine for simple use with the asset pipeline provided by Rails 3.1 and higher. The gem includes the development (non-minified) source for ease of exploration. The asset pipeline will minify in production.
